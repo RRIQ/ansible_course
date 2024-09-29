@@ -1,2 +1,9 @@
-192.168.0.226
-192.168.0.178
+[debian]
+192.168.0.227
+
+
+[rpm]
+192.168.0.178 ansible_python_interpreter=/usr/bin/python3
+
+[jellyfin]
+192.168.0.224 ansible_user=rick ansible_python_interpreter=/usr/bin/python3
